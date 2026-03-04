@@ -17,7 +17,7 @@ nvim --version
 
 sudo apt update
 
-# instala o lazyVim
+# instalar o lazyVim
 
 sudo apt install git xclip curl grep ripgrep fd-find unzip build-essential
 
@@ -25,3 +25,6 @@ git clone https://github.com/LazyVim/starter ~/.config/nvim
 
 rm -rf ~/.config/nvim/.git
 
+# ideias
+
+ mostrar em gráficos, dados numericos para facilitar compreensão
