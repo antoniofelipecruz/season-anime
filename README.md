@@ -25,6 +25,9 @@ git clone https://github.com/LazyVim/starter ~/.config/nvim
 
 rm -rf ~/.config/nvim/.git
 
+#tudo em apenas uma linha.
+sudo add-apt-repository -y ppa:neovim-ppa/unstable && sudo apt update && sudo apt install -y neovim git xclip curl grep ripgrep fd-find unzip build-essential && git clone https://github.com/LazyVim/starter ~/.config/nvim && rm -rf ~/.config/nvim/.git && nvim --version
+
 # ideias
 
  mostrar em gráficos, dados numericos para facilitar compreensão
