@@ -27,6 +27,15 @@ rm -rf ~/.config/nvim/.git
 
 # tudo em apenas uma linha.
 sudo add-apt-repository -y ppa:neovim-ppa/unstable && sudo apt update && sudo apt install -y neovim git xclip curl grep ripgrep fd-find unzip build-essential && git clone https://github.com/LazyVim/starter ~/.config/nvim && rm -rf ~/.config/nvim/.git && nvim --version
+# Angular 
+
+curl -o- https://raw.githubusercontent.com | bash && \
+export NVM_DIR="$HOME/.nvm" && \
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" && \
+nvm install 22 && \
+nvm use 22 && \
+npm install -g @angular/cli
+
 
 # ideias
 
