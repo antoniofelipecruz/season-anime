@@ -36,8 +36,14 @@ nvm install 22 && \
 nvm use 22 && \
 npm install -g @angular/cli
 
+# Configuração para windows, instale o node e:
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+npm install -g @ionic/cli
+
+
 
 
 # ideias
 
  mostrar em gráficos, dados numericos para facilitar compreensão
+ gameficar a API
