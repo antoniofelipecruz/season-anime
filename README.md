@@ -39,6 +39,8 @@ npm install -g @angular/cli
 # Configuração para windows, instale o node e:
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 npm install -g @ionic/cli
+ionic cap build 
+ionic cap run android
 
 
 
