@@ -36,6 +36,11 @@ nvm install 22 && \
 nvm use 22 && \
 npm install -g @ionic/cli
 
+# :LazyExtras
+lang.json
+lang.Angular
+lang.TypeScript
+
 # Configuração para windows, instale o node e:
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 npm install -g @ionic/cli
